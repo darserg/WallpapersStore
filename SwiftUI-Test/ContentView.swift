@@ -20,8 +20,6 @@ struct ContentView: View {
                     .frame(height: 200)
                     .cornerRadius(8)
                 
-                Spacer().frame(width: 16)
-                
                 VStack(alignment: .leading) {
                     Text(item.title)
                         .fontWeight(.semibold)
