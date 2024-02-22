@@ -8,17 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var Wallpaper : [Wallpapers] = []
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            List(Wallpaper){ wallpaper in
+                Image(wallpaper.imageName)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 200)
+                    .cornerRadius(8)
+                
+//                Spacer().frame(width: 16)
+                
+                VStack(alignment: .leading) {
+                    Text(wallpaper.title)
+                        .fontWeight(.semibold)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.75)
+                    Spacer().frame(height: 5)
+                    Text(wallpaper.uploadDate)
+                        .foregroundColor(.secondary)
+                }
+            }.navigationTitle(Text("Cool walpapers"))
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(Wallpaper: WallpapersList.topFour)
 }

@@ -14,6 +14,7 @@
 		635D958B2B87773E00B81440 /* SwiftUI_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D958A2B87773E00B81440 /* SwiftUI_TestTests.swift */; };
 		635D95952B87773E00B81440 /* SwiftUI_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D95942B87773E00B81440 /* SwiftUI_TestUITests.swift */; };
 		635D95972B87773E00B81440 /* SwiftUI_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D95962B87773E00B81440 /* SwiftUI_TestUITestsLaunchTests.swift */; };
+		635D95A42B877C3C00B81440 /* Wallpapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D95A32B877C3C00B81440 /* Wallpapers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		635D95902B87773E00B81440 /* SwiftUI-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		635D95942B87773E00B81440 /* SwiftUI_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TestUITests.swift; sourceTree = "<group>"; };
 		635D95962B87773E00B81440 /* SwiftUI_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		635D95A32B877C3C00B81440 /* Wallpapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpapers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				635D95792B87773D00B81440 /* SwiftUI_TestApp.swift */,
 				635D957B2B87773D00B81440 /* ContentView.swift */,
+				635D95A32B877C3C00B81440 /* Wallpapers.swift */,
 				635D957D2B87773D00B81440 /* Assets.xcassets */,
 				635D957F2B87773D00B81440 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				635D957C2B87773D00B81440 /* ContentView.swift in Sources */,
+				635D95A42B877C3C00B81440 /* Wallpapers.swift in Sources */,
 				635D957A2B87773D00B81440 /* SwiftUI_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
