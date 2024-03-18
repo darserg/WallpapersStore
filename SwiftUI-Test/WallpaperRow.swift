@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-
+// struct, which is creating an object of type view, will be used in  List
 struct WallpaperRow: View {
     @Binding var wallpaper: Wallpaper
     

@@ -12,8 +12,12 @@
 		635D957A2B87773D00B81440 /* SwiftUI_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D95792B87773D00B81440 /* SwiftUI_TestApp.swift */; };
 		635D957E2B87773D00B81440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635D957D2B87773D00B81440 /* Assets.xcassets */; };
 		635D95812B87773D00B81440 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635D95802B87773D00B81440 /* Preview Assets.xcassets */; };
+<<<<<<< HEAD
 		635D95A42B877C3C00B81440 /* Wallpapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D95A32B877C3C00B81440 /* Wallpapers.swift */; };
 		639F99B42B931AA80015F697 /* WallpaperDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639F99B32B931AA80015F697 /* WallpaperDetail.swift */; };
+=======
+		635D95A62B87829F00B81440 /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D95A52B87829F00B81440 /* Wallpaper.swift */; };
+>>>>>>> main
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +46,12 @@
 		635D95802B87773D00B81440 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		635D95862B87773E00B81440 /* SwiftUI-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		635D95902B87773E00B81440 /* SwiftUI-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+<<<<<<< HEAD
 		635D95A32B877C3C00B81440 /* Wallpapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpapers.swift; sourceTree = "<group>"; };
 		639F99B32B931AA80015F697 /* WallpaperDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperDetail.swift; sourceTree = "<group>"; };
+=======
+		635D95A52B87829F00B81440 /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+>>>>>>> main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +101,15 @@
 			isa = PBXGroup;
 			children = (
 				635D95792B87773D00B81440 /* SwiftUI_TestApp.swift */,
+<<<<<<< HEAD
 				635D81A42BA73AED0088A223 /* WallpaperView.swift */,
 				639F99B32B931AA80015F697 /* WallpaperDetail.swift */,
 				635D95A32B877C3C00B81440 /* Wallpapers.swift */,
 				635D81A62BA7407C0088A223 /* WallpaperRow.swift */,
+=======
+				635D957B2B87773D00B81440 /* ContentView.swift */,
+				635D95A52B87829F00B81440 /* Wallpaper.swift */,
+>>>>>>> main
 				635D957D2B87773D00B81440 /* Assets.xcassets */,
 				635D957F2B87773D00B81440 /* Preview Content */,
 			);
@@ -241,9 +254,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				635D95A42B877C3C00B81440 /* Wallpapers.swift in Sources */,
 				635D81A52BA73AED0088A223 /* WallpaperView.swift in Sources */,
 				635D81A72BA7407C0088A223 /* WallpaperRow.swift in Sources */,
+=======
+				635D957C2B87773D00B81440 /* ContentView.swift in Sources */,
+				635D95A62B87829F00B81440 /* Wallpaper.swift in Sources */,
+>>>>>>> main
 				635D957A2B87773D00B81440 /* SwiftUI_TestApp.swift in Sources */,
 				639F99B42B931AA80015F697 /* WallpaperDetail.swift in Sources */,
 			);
